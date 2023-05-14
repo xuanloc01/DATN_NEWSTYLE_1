@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.bg-yellow{
+    background-color: rgb(245, 245, 38);
+    padding: 30px 0px;
+}
+.bg-yellow-1{
+    background-color: rgb(237, 237, 152);
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.main-menu{
+    text-align: center;
+}
+.main-menu ul{
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    color: black;
+    justify-content: space-around;
+}
+
+.main-menu ul li a{
+    padding: 20px;
+    display: block;
+   color: black;
+    text-decoration: none;
+}
+.bg-1{
+    background-color: antiquewhite;
+}
+.product{
+    position: relative;
+}
+.sale{
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(240, 153, 153);
+    color: white;
+}
+.price-sale{
+    display: none;
+}
